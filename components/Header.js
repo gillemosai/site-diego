@@ -43,6 +43,10 @@ export default function Header() {
             <span>📞 (71) 2102-6000</span>
             <nav className="cabecalho-topo-menu">
               <li>
+                <Link href="/estudo-de-caso-marca" style={{ color: '#00AEEF', fontWeight: 'bold' }}>✨ Nova Marca (Estudo)</Link>
+              </li>
+              <span className="divisor">|</span>
+              <li>
                 <Link href="/conta/pedidos">📋 Meus Pedidos</Link>
               </li>
               <span className="divisor">|</span>
